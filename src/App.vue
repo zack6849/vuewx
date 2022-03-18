@@ -1,8 +1,6 @@
 <template>
-    <div class="container-fluid">
-      <main>
-        <forecasts-component api_key="74dc0571dcbabbf230424c19b81e045d" default_location="New York City"></forecasts-component>
-      </main>
+    <div class="container">
+        <forecasts-list api_key="74dc0571dcbabbf230424c19b81e045d" default_location="New York City"></forecasts-list>
     </div>
 </template>
 <style>
